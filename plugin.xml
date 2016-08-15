@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="cordova-plugin-bluetooth-obd" version="0.0.5">
+        id="cordova-plugin-bluetooth-obd" version="0.0.6">
     <name>Bluetooth-OBD</name>
     <description>Cordova Bluetooth-OBD Plugin</description>
     <keywords>OBD,ODB</keywords>
     <js-module src="www/bluetooth-obd.js" name="bluetooth-obd">
         <clobbers target="btOBDReader" />
     </js-module>
-    <js-module src="lib/obd.js" name="libObd">
+    <js-module src="lib/obd.js" name="OBDReader">
+        <clobbers target="OBDReader" />
     </js-module>
     <js-module src="lib/obdInfo.js" name="libObdInfo">
+    </js-module>
+    <js-module src="www/bluetooth-obd.js" name="bluetooth-obd">
+        <clobbers target="btOBDReader" />
     </js-module>
 </plugin>
