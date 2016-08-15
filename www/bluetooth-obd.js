@@ -1,4 +1,4 @@
-var OBDReader = require('bluetooth-obd');
+var OBDReader = require('../lib/obd');
 var btOBDReader = new OBDReader();
 var dataReceivedMarker = {};
 
