@@ -4,7 +4,7 @@
     <name>Bluetooth-OBD</name>
     <description>Cordova Bluetooth-OBD Plugin</description>
     <keywords>OBD,ODB</keywords>
-    <js-module src="www/obd.js" name="obd">
+    <js-module src="www/bluetooth-obd.js" name="bluetooth-obd">
         <clobbers target="btOBDReader" />
     </js-module>
     <js-module src="lib/obd.js" name="libObd">
