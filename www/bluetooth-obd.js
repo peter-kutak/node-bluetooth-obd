@@ -1,4 +1,4 @@
-var OBDReader = require('OBDReader');
+//var OBDReader = require('OBDReader');
 var btOBDReader = new OBDReader();
 var dataReceivedMarker = {};
 
